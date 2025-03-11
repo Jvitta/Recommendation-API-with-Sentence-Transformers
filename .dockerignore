@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.*
+
+# Firebase
+firebase_service_account.json
+firebase_token.json
+firebase_token_prod.json
+*firebase-adminsdk*.json
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
+
+# Tests
+test/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files and backups
+*.tmp
+*.bak
+
+# Testing artifacts
+*.pytest_cache
+
+# Local development files
+commands.txt
+notes.txt
+*.local
+

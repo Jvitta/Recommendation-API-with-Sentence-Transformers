@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+
+# Credentials and secrets
+firebase_service_account.json
+firebase_token.json
+firebase_token_prod.json
+*firebase-adminsdk*.json
+
+# Logs
+*.log
+
+# Testing artifacts
+*.pytest_cache
+
+# IDE config files
+.vscode/
+.idea/
+
+# Platform-specific files
+*.DS_Store
+Thumbs.db
+
+# Local development notes and commands
+commands.txt
+notes.txt
+*.local
